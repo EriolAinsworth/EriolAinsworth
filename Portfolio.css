@@ -1,0 +1,109 @@
+
+		html, body, header, .content {
+            height: 100%;
+            /* height for type effect */
+            min-height: 100%;
+            overflow: hidden;
+            
+		}
+		body{
+			margin:0;
+            font-family: arial;
+            
+		}
+		nav{
+			padding:20px 15%;
+		}
+		.brand{
+			font-size: 30px;
+			font-weight: bold;
+			float:left;
+			margin-top: 15px;
+
+		}
+		nav>ul{
+			list-style-type: none;
+			padding : 0;
+			float : right;
+		}
+		nav>ul>li{
+			float: left;
+			padding: 10px 15px;
+		}
+
+		.content{
+			position:relative;
+		}
+
+		.left{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width:36%;
+			left:12%;
+		}
+		.clear{
+			clear:both;
+		}
+		.right{
+			top: 15%;
+			position: absolute;
+			bottom: 20%;
+			width:30%;
+			right:10%;
+        }
+        a:visited{
+            color:black;
+          
+			
+        }
+        a:active {
+            color: #867e7e;
+        }
+        a:hover{
+            color:#867e7e;
+        }
+		.bottom{
+            position: fixed;
+            bottom: 0;
+            width: 10%;
+		}
+		
+		/*new css flip epek */
+	.wrap{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		.flipBox{
+			width: 300px;
+			height: 300px;
+			background-color: transparent;
+			perspective: 1000px;
+			box-shadow: 0 2px 15px #adadad;
+			margin: 30px 30px 0;
+			padding: 5px;
+		}
+		.flipBoxInner{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			transition: 300ms;
+			transform-style: preserve-3d;
+		}
+		.flipBoxFront,.flipBoxBack{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+		}
+		.flipBoxBack{
+			padding: 15px;
+			color: #ffffff;
+			box-sizing: border-box;
+			transform: rotateY(180deg);
+		}
+		.flipBox:hover .flipBoxInner{
+			transform: rotateY(180deg);
+		}

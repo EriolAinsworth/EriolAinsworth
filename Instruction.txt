@@ -1,0 +1,11 @@
+Instructions
+Use sublime text or notepad++ text editors for coding.
+Read up on lab 5 manual for additional knowledge on html basics or read online the resources for tutorials: www.w3schools.com
+Create a basic website composed of several webpages. The website must be about you (personal profile, hobbies, skills, educational background, family, etc.). Add as many web pages as you can for as long as it is related to you. Use index.html (this will serve as your home/main page)
+Put all .html files to one folder, name your folder as Exer5_Lastname_Firstname
+Make sure to compress the folder using .rar or .zip before uploading it to this assignment submission. Name you .rar or .zip file also as Exer5_Lastname_Firstname
+
+Note:
+-Failure to submit will receive a grade of "0" in Lab #5.
+-Deductions will be given to those who will not follow the given instructions
+-You can do hardcoding or use some templates for your site but I do suggest to do it in a hard way to learn more the foundation of HTML. Using of downloaded templates can be hard for beginners.
